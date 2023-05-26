@@ -20,4 +20,6 @@ You can read about them [HERE](https://confluence.atlassian.com/bitbucketserver/
 6. When you are done editing, **push all changes to your branch** ```git push -u origin arlooDev```. Use this command only once when you do ```git push``` for the first time. In subsequent times, just use ```git push origin arlooDev```.
 
 ## Next Steps
-1. Paste all your HTML codes in 
+1. Paste all your HTML codes in _Views/Home/Index.cshtml_.
+2. Paste all your CSS codes in _Views/Home/Index.cshtml.css_.
+3. When you are done, run ```git push origin arlooDev``` to bring the changes here.

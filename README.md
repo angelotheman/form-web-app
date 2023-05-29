@@ -22,4 +22,6 @@ Read about them [HERE](https://confluence.atlassian.com/bitbucketserver/basic-gi
 ## Next Steps
 1. Paste all your HTML codes in _Views/Home/Index.cshtml_.
 2. Paste all your CSS codes in _Views/Home/Index.cshtml.css_.
-3. Run ```git push origin <name>``` to bring the changes here.
+3. ```git add Views/Home/Index.cshtml Views/Home/Index.cshtml.css```.
+4. ```git commit -m "HTML and CSS added```.
+5. Run ```git push origin <name>``` to bring the changes here.

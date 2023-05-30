@@ -4,3 +4,85 @@
 
 <!---ALL HTML CODES GOES HERE--->
 <h2><b><i>This is a reporting form</i></b></h2>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reporting Form</title>
+        <link rel="stylesheet" type="Text/css" href="project.css">
+    
+    </head>
+    <body>
+
+        <div class="Form">
+            <div class="title-div">
+                <h1>WELCOME TO KNUST MAINTENANCE SYSTEM</h1>
+                <P>Kindly the forms below to report an issue</P>
+                <p class="required">*Required</p>
+            </div>
+
+
+            <div class="name-div">
+                <div class="details"> <p>Personal Details</p></div>
+                <div class="name">Enter Your First Name<span class="required">*</span></div>
+                <div class="textbox" contenteditable="true" placeholder="Asantewaa"></div>
+
+                <div class="name">Enter Your Last Name</div>
+                <div class="textbox" contenteditable="true" placeholder="Asantewaa"></div>
+
+                <div class="name">Enter Your Email Address<span class="required">*</span></div>
+                <div class="textbox" contenteditable="true" placeholder="Asantewaa"></div>
+
+                <div class="name">Enter Your Phone Number<span class="required">*</span></div>
+                <div class="textbox" contenteditable="true" placeholder="Asantewaa"></div>
+
+
+            </div>
+            
+
+            <div class="name-div">
+                <div class="details"> <p>Fault Details</p></div>
+                <div class="name">Select Fault Category<span class="required">*</span></div>
+               <div class="textbox"   list="myDropdown" id="myInput" placeholder="ama ">
+                  <div class="dropdown">
+                        <select name="test" id="input">
+                            <option value="">Select</option>
+                            <option value="">Management</option>
+                            <option value="">Side hustle</option>
+                            <option value="">air condition</option>
+                            <option value="">Refridgerator</option>
+                        </select>
+                    </div>
+
+                <!---   <input type="Choose an option">
+                <datalist id="myDropdown">
+                     <option value="Option 1">
+                     <option value="Electrical">
+                     <option value="Plumbing">
+                     <option value="Mechanical">
+                     <option value="Air condition & Refridgerator">
+        </datalist>-->
+
+
+                </div>
+
+                <div class="name">Enter Your Location<span class="required">*</span></div>
+                <div class="textbox" contenteditable="true" placeholder="Asantewaa"></div>
+
+                <div class="name">Describe Fault</div>
+                <div class="textbox" contenteditable="true" placeholder="Asantewaa"> </div>
+                
+                <div class="name">Upload Picture of Fault</div>
+                <div>You may upload via your online drive link, as evidence to clarify the written Problem</div>
+               
+                <div>
+                    <input class="btn" type="submit">
+                </div>
+            </div>
+
+           
+            
+            <button class="btn">Send Message</button>
+        </div>
+        
+    </body>
+</html>

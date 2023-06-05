@@ -1,1 +1,8 @@
-terraform/
+.vscode
+bin/
+
+terraform/main.tf
+
+formApp.csproj
+appsettings.json
+appsettings.Developoment.json

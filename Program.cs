@@ -1,4 +1,4 @@
-using Microsoft.EntityFrameworkCore.SqlServer;
+//using Microsoft.EntityFrameworkCore.SqlServer;
 using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);

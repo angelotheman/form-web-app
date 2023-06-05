@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/angelotheman/Documents/aspNET/formAppMVC/formApp.csproj": {}
+    "/workspaces/form-web-app/formApp.csproj": {}
   },
   "projects": {
-    "/home/angelotheman/Documents/aspNET/formAppMVC/formApp.csproj": {
+    "/workspaces/form-web-app/formApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/angelotheman/Documents/aspNET/formAppMVC/formApp.csproj",
+        "projectUniqueName": "/workspaces/form-web-app/formApp.csproj",
         "projectName": "formApp",
-        "projectPath": "/home/angelotheman/Documents/aspNET/formAppMVC/formApp.csproj",
-        "packagesPath": "/home/angelotheman/.nuget/packages/",
-        "outputPath": "/home/angelotheman/Documents/aspNET/formAppMVC/obj/",
+        "projectPath": "/workspaces/form-web-app/formApp.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/form-web-app/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/angelotheman/.nuget/NuGet/NuGet.Config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -62,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.105/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.203/sdk/7.0.203/RuntimeIdentifierGraph.json"
         }
       }
     }

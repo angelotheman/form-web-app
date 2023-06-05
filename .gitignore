@@ -1,7 +1,9 @@
-.vscode
-bin/
-
-terraform/main.tf
+/.vscode
+/bin/
+/obj/
+*.log
+*.cache
+/terraform/
 
 formApp.csproj
 appsettings.json

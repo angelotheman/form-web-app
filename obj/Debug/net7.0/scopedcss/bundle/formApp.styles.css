@@ -1,4 +1,206 @@
 /* _content/formApp/Views/Home/Index.cshtml.rz.scp.css */
+body[b-r09vpm7szt]{
+    background-color: #ede7f6;
+    font-family:sans-serif;
+}
+
+.form[b-r09vpm7szt]{
+    height: 1100px;
+    width: 600px;
+    margin: auto;
+}
+
+
+.required[b-r09vpm7szt]{
+font-size: 13;
+color: red;
+
+}
+.title-div[b-r09vpm7szt]{
+height: 150px;
+width: 842px;
+background-color: #43047e;
+margin: 15px;
+border-radius: 8px;
+border-left: 8px solid #ffffff;
+padding: 20px;
+color:#fdfefe;
+}
+.details[b-r09vpm7szt] {
+    margin: 15px;
+    font-size: 30px;
+    font-weight:650;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #43047e;
+    padding-top: 2px;
+    text-decoration:underline;
+}
+
+
+/*.name-div, .name-div, .email-div, .number-div, .location-div{
+    height: 150px;
+    width: 850px;
+    background-color: #fdfefe;
+    border-left: 8px solid #6703c4;
+    margin: 15px;
+    border-radius: 8px;   
+}
+
+.input-div{
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.input-div input{
+    width: 300px;
+    border:0;
+    outline: 0;
+    border-bottom: 1.5px solid #dcd7d7;
+}
+*/
+.name[b-r09vpm7szt]{
+    padding-top:8px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight:350;
+}
+
+.name-div[b-r09vpm7szt]{
+    height: 650px;
+    width: 880px;
+    background-color: #fdfefe;
+    margin: 15px; 
+    border-radius: 8px;
+    border-left: 8px solid #6703c4;
+  
+}
+
+
+
+.textbox[b-r09vpm7szt] {
+    width: 750px;
+    height:15px;
+    background-color: #f7f4fc;
+    border: .5px solid #c690f8;
+    border-radius: 8px;
+    font-size: 20px;
+    margin: 20px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+  }
+
+  .textbox input[b-r09vpm7szt]{
+    width: 300px;
+    border:0;
+    outline: 0;
+    border-bottom: 1.5px solid #dcd7d7;
+}
+
+.fault[b-r09vpm7szt]{
+    margin: 15px;
+    font-size: 20px;
+    font-weight:350;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 3px;
+}
+
+/*.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }*/
+
+  #myInput[b-r09vpm7szt] {
+    /* Textbox styles */
+    width: 750px;
+    height:15px;
+    font-size: 20px;
+    margin: 20px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    border-radius: 8px;
+    background-color: #f7f4fc;
+    border: .5px solid #c690f8;
+      
+  }
+  
+  /* Additional styling for the dropdown arrow 
+  #myInput::-webkit-calendar-picker-indicator {
+    display: none;
+  }*/
+  
+  #myInput[b-r09vpm7szt]::-webkit-inner-spin-button,
+  #myInput[b-r09vpm7szt]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  #myDropdown[b-r09vpm7szt] {
+    /* Dropdown list styles */
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-height: 150px;
+    overflow-y: auto;
+  }
+  
+  #myDropdown option[b-r09vpm7szt] {
+    /* Dropdown option styles */
+    padding: 5px;
+  }
+  
+
+
+.btn[b-r09vpm7szt]{
+    height: 40px;
+    width: 120px;
+    background-color: #6703c4;
+    margin: 15px;
+    border-radius: 5px;
+    border: none;
+    padding:  10px 20px;
+    position: absolute;
+    font-weight: 540;
+    letter-spacing: .5px;
+    color: white;
+    cursor: pointer;
+}
+ 
+
+.btn:hover[b-r09vpm7szt] {
+  background-color: #460483;
+  height: 45px;
+    width: 130px;
+    font-weight: 590;
+    font-size: medium;
+}
 /* _content/formApp/Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
